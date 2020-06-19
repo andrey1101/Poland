@@ -1,0 +1,47 @@
+@import "./../constants/index.scss";
+@import "./../mixins.scss";
+
+.footer {
+  background-image: url(./../..//build/assets/img/sign-up-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  &__title {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 92px;
+    color: $white;
+    line-height: 1em;
+    padding-bottom: 30px;
+
+    @media screen and (max-width: $deviceSizeSM) {
+      font-size: 60px;
+    }
+  }
+
+  &__button {
+    padding-right: 44px;
+    padding-left: 44px;
+  }
+
+  &__desc {
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 18px;
+    color: $white;
+    padding-top: 48px;
+
+    a {
+      color: $textSecondary;
+      border-bottom: 1px solid $textSecondary;
+    }
+  }
+}

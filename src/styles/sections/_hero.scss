@@ -1,0 +1,44 @@
+@import "./../constants/index.scss";
+@import "./../mixins.scss";
+
+.hero {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    min-height: 100vh;
+    text-align: center;
+    color: $white;
+  }
+
+  &__title {
+    font-family: "montserrat-bold", sans-serif;
+    font-size: 92px;
+    line-height: 1em;
+    max-width: 600px;
+    padding-bottom: 30px;
+
+    @media screen and (max-width: $deviceSizeSM) {
+      font-size: 60px;
+    }
+
+    span {
+      color: $red;
+    }
+  }
+
+  &__subtitle {
+    font-family: "montserrat-regular", sans-serif;
+    color: rgba(100, 100, 100, 0.8);
+    padding-bottom: 50px;
+    line-height: 1em;
+  }
+
+  &__button {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}

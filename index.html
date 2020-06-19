@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Poland</title>
+
+    <link rel="stylesheet" href="./build/styles/main.css" />
+    <link rel="stylesheet" href="./build/js/slick/slick.css" />
+    <link rel="stylesheet" href="./build/js/slick/slick-theme.css" />
+  </head>
+
+  <body>
+    <div class="root">
+      <header class="header">
+        <div class="content-container header__container">
+          <div class="header__logo">
+            <img src="./build/assets/icons/logo.svg" alt="logo" />
+            <span>Polind</span>
+          </div>
+          <nav class="header__nav">
+            <div class="header__nav-list">
+              <a href="#" class="header__nav-item">Guide</a>
+              <a href="#" class="header__nav-item">Journey</a>
+              <a href="#" class="header__nav-item">Hotels</a>
+              <a href="#" class="header__nav-item">Travelers</a>
+            </div>
+            <div class="header__nav-block">
+              <input class="header__input" type="text" placeholder=" " />
+              <button class="header__search-btn">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="search"
+                  class="svg-inline--fa fa-search fa-w-16"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16px"
+                  height="16px"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                  ></path>
+                </svg>
+              </button>
+              <button class="header__hamburger-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="hero">
+        <div class="content-container hero__container">
+          <h1 class="hero__title">Fall in love <span>with Poland</span></h1>
+          <h3 class="hero__subtitle">
+            Best way to find your perfect place in Poland
+          </h3>
+          <button class="hero__button button">Search your place</button>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="content-container categories__container">
+          <p class="categories__title">Popular places to discover</p>
+          <ul class="categories__list">
+            <li class="categories__list-item">
+              <div class="categories__item-image">
+                <img src="./build/assets/img/warsaw-slide.png" alt="Warsaw" />
+              </div>
+              <div class="categories__item-info">
+                <div class="categories__info-title">
+                  <h3>Warsaw</h3>
+                  <p>Mazowieckie</p>
+                </div>
+                <button class="categories__info-button button">
+                  View offers
+                </button>
+              </div>
+            </li>
+            <li class="categories__list-item">
+              <div class="categories__item-image">
+                <img
+                  class="categories__item-image"
+                  src="./build/assets/img/zakopane-slide.png"
+                  alt="Zakopane"
+                />
+              </div>
+              <div class="categories__item-info">
+                <div class="categories__info-title">
+                  <h3>Zakopane</h3>
+                  <p>Małopolskie</p>
+                </div>
+                <button class="categories__info-button button">
+                  View offers
+                </button>
+              </div>
+            </li>
+            <li class="categories__list-item">
+              <div class="categories__item-image">
+                <img
+                  class="categories__item-image"
+                  src="./build/assets/img/sandomierz-slide.png"
+                  alt="Sandomierz"
+                />
+              </div>
+              <div class="categories__item-info">
+                <div class="categories__info-title">
+                  <h3>Sandomierz</h3>
+                  <p>Swietokrzyskie</p>
+                </div>
+                <button class="categories__info-button button">
+                  View offers
+                </button>
+              </div>
+            </li>
+            <li class="categories__list-item">
+              <div class="categories__item-image">
+                <img
+                  class="categories__item-image"
+                  src="./build/assets/img/sopot-slide.png"
+                  alt="Sopot"
+                />
+              </div>
+              <div class="categories__item-info">
+                <div class="categories__info-title">
+                  <h3>Sopot</h3>
+                  <p>Pomorskie</p>
+                </div>
+                <button class="categories__info-button button">
+                  View offers
+                </button>
+              </div>
+            </li>
+            <li class="categories__list-item">
+              <div class="categories__item-image">
+                <img
+                  class="categories__item-image"
+                  src="./build/assets/img/karpacz-slide.png"
+                  alt="Karpacz"
+                />
+              </div>
+              <div class="categories__item-info">
+                <div class="categories__info-title">
+                  <h3>Karpacz</h3>
+                  <p>Dolnoslaskie</p>
+                </div>
+                <button class="categories__info-button button">
+                  View offers
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="search">
+        <div class="content-container search__container">
+          <div class="search__wrap">
+            <h3 class="search__title title">
+              Where you want to go?
+            </h3>
+            <div class="search__input-wrap">
+              <input
+                class="search__input"
+                type="text"
+                placeholder="Search place"
+              />
+              <button class="search__input-btn">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="fas"
+                  data-icon="search"
+                  class="svg-inline--fa fa-search fa-w-16"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18px"
+                  height="18px"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div class="search__tags-block">
+              <div class="search__tags-list">
+                <button class="search__tags-item">Journey</button>
+                <button class="search__tags-item">
+                  Travelers
+                </button>
+                <button class="search__tags-item">Guide</button>
+              </div>
+              <div class="search__tags-list">
+                <button class="search__tags-item bg-white">Mazury</button>
+                <button class="search__tags-item bg-white">Cracow</button>
+                <button class="search__tags-item bg-white">
+                  Zakopane
+                </button>
+              </div>
+            </div>
+          </div>
+          <ul class="search__list-card">
+            <li class="search__card-item">
+              <img
+                class="search__card-img"
+                src="./build/assets/img/poznan-grid.png"
+                alt="Poznan"
+              />
+              <div class="search__card-info">
+                <h3 class="search__info-title">Poznan</h3>
+                <p class="search__info-subtitle">Wielkopolskie</p>
+                <button class="search__info-button">
+                  View offers
+                </button>
+              </div>
+            </li>
+            <li class="search__card-item">
+              <img
+                class="search__card-img"
+                src="./build/assets/img/warsaw-grid.png"
+                alt="Warsaw"
+              />
+              <div class="search__card-info">
+                <h3 class="search__info-title">Warsaw</h3>
+                <p class="search__info-subtitle">Mazowieckie</p>
+                <button class="search__info-button">
+                  View offers
+                </button>
+              </div>
+            </li>
+            <li class="search__card-item">
+              <img
+                class="search__card-img"
+                src="./build/assets/img/wroclaw-grid.png"
+                alt="Wroclaw"
+              />
+              <div class="search__card-info">
+                <h3 class="search__info-title">Wroclaw</h3>
+                <p class="search__info-subtitle">Dolnoslaskie</p>
+                <button class="search__info-button">
+                  View offers
+                </button>
+              </div>
+            </li>
+            <li class="search__card-item">
+              <img
+                class="search__card-img"
+                src="./build/assets/img/karpacz-grid.png"
+                alt="Karpacz"
+              />
+              <div class="search__card-info">
+                <h3 class="search__info-title">Karpacz</h3>
+                <p class="search__info-subtitle">Dolnoslaskie</p>
+                <button class="search__info-button">
+                  View offers
+                </button>
+              </div>
+            </li>
+            <li class="search__card-item">
+              <img
+                class="search__card-img"
+                src="./build/assets/img/dolina-grid.png"
+                alt="Dolina Olczyska"
+              />
+              <div class="search__card-info">
+                <h3 class="search__info-title">Dolina Olczyska</h3>
+                <p class="search__info-subtitle">Małopolskie</p>
+                <button class="search__info-button">
+                  View offers
+                </button>
+              </div>
+            </li>
+            <li class="search__card-item">
+              <img
+                class="search__card-img"
+                src="./build/assets/img/kozy-grid.png"
+                alt="Kozy"
+              />
+              <div class="search__card-info">
+                <h3 class="search__info-title">Kozy</h3>
+                <p class="search__info-subtitle">Slaskie</p>
+                <button class="search__info-button">
+                  View offers
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__container content-container">
+          <h3 class="about__title title">
+            Explore city
+          </h3>
+          <div class="about__content">
+            <div class="about__content-info">
+              <h3 class="about__info-title">Sandomierz</h3>
+              <p class="about__info-text">
+                Sandomierz is one of the oldest and historically most
+                significant cities in Poland. Archeological finds around the
+                city indicate that humans have inhabited the area since
+                neolithic times. The city came into existence in the early
+                Middle Ages, taking advantage of an excellent location at the
+                junction of Vistula and San rivers, and on the path of important
+                trade routes.
+              </p>
+              <p class="about__info-text">
+                The first known historical mention of the city comes from the
+                early 12th-century, when the chronicler Gallus Anonymus ranked
+                it together with Kraków and Wrocław as one of the main cities of
+                Poland. The testament (ca 1115-1118) of Bolesław III Wrymouth,
+                in which he divided Poland among his sons, designated Sandomierz
+                as the capital of one of the resulting principalities, the Duchy
+                of Sandomierz.
+              </p>
+              <button class="about__info-button button">Check offers</button>
+            </div>
+            <div class="about__content-image">
+              <img
+                src="./build/assets/img/sandomierz-slide.png"
+                alt="Sandomierz"
+              />
+            </div>
+          </div>
+          <div class="about__background-text">
+            <div>
+              <span>S</span>
+              <span>A</span>
+              <span>N</span>
+            </div>
+            <div>
+              <span>D</span>
+              <span>O</span>
+              <span>M</span>
+            </div>
+            <div>
+              <span>I</span>
+              <span>E</span>
+              <span>R</span>
+              <span>Z</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="content-container footer__container">
+          <h2 class="footer__title">Enjoy your ourney</h2>
+          <button class="footer__button button">Sign up</button>
+          <p class="footer__desc">
+            You can also sign up on our <a href="#">newsletter</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./build/js/slick/slick.min.js"></script>
+    <script src="./build/js/slider-config.js"></script>
+    <script src="./build/js/index.js"></script>
+  </body>
+</html>
